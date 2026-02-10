@@ -1,0 +1,1767 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>@font-face {
+  font-family: octicons-link;
+  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAZwABAAAAAACFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEU0lHAAAGaAAAAAgAAAAIAAAAAUdTVUIAAAZcAAAACgAAAAoAAQAAT1MvMgAAAyQAAABJAAAAYFYEU3RjbWFwAAADcAAAAEUAAACAAJThvmN2dCAAAATkAAAABAAAAAQAAAAAZnBnbQAAA7gAAACyAAABCUM+8IhnYXNwAAAGTAAAABAAAAAQABoAI2dseWYAAAFsAAABPAAAAZwcEq9taGVhZAAAAsgAAAA0AAAANgh4a91oaGVhAAADCAAAABoAAAAkCA8DRGhtdHgAAAL8AAAADAAAAAwGAACfbG9jYQAAAsAAAAAIAAAACABiATBtYXhwAAACqAAAABgAAAAgAA8ASm5hbWUAAAToAAABQgAAAlXu73sOcG9zdAAABiwAAAAeAAAAME3QpOBwcmVwAAAEbAAAAHYAAAB/aFGpk3jaTY6xa8JAGMW/O62BDi0tJLYQincXEypYIiGJjSgHniQ6umTsUEyLm5BV6NDBP8Tpts6F0v+k/0an2i+itHDw3v2+9+DBKTzsJNnWJNTgHEy4BgG3EMI9DCEDOGEXzDADU5hBKMIgNPZqoD3SilVaXZCER3/I7AtxEJLtzzuZfI+VVkprxTlXShWKb3TBecG11rwoNlmmn1P2WYcJczl32etSpKnziC7lQyWe1smVPy/Lt7Kc+0vWY/gAgIIEqAN9we0pwKXreiMasxvabDQMM4riO+qxM2ogwDGOZTXxwxDiycQIcoYFBLj5K3EIaSctAq2kTYiw+ymhce7vwM9jSqO8JyVd5RH9gyTt2+J/yUmYlIR0s04n6+7Vm1ozezUeLEaUjhaDSuXHwVRgvLJn1tQ7xiuVv/ocTRF42mNgZGBgYGbwZOBiAAFGJBIMAAizAFoAAABiAGIAznjaY2BkYGAA4in8zwXi+W2+MjCzMIDApSwvXzC97Z4Ig8N/BxYGZgcgl52BCSQKAA3jCV8CAABfAAAAAAQAAEB42mNgZGBg4f3vACQZQABIMjKgAmYAKEgBXgAAeNpjYGY6wTiBgZWBg2kmUxoDA4MPhGZMYzBi1AHygVLYQUCaawqDA4PChxhmh/8ODDEsvAwHgMKMIDnGL0x7gJQCAwMAJd4MFwAAAHjaY2BgYGaA4DAGRgYQkAHyGMF8NgYrIM3JIAGVYYDT+AEjAwuDFpBmA9KMDEwMCh9i/v8H8sH0/4dQc1iAmAkALaUKLgAAAHjaTY9LDsIgEIbtgqHUPpDi3gPoBVyRTmTddOmqTXThEXqrob2gQ1FjwpDvfwCBdmdXC5AVKFu3e5MfNFJ29KTQT48Ob9/lqYwOGZxeUelN2U2R6+cArgtCJpauW7UQBqnFkUsjAY/kOU1cP+DAgvxwn1chZDwUbd6CFimGXwzwF6tPbFIcjEl+vvmM/byA48e6tWrKArm4ZJlCbdsrxksL1AwWn/yBSJKpYbq8AXaaTb8AAHja28jAwOC00ZrBeQNDQOWO//sdBBgYGRiYWYAEELEwMTE4uzo5Zzo5b2BxdnFOcALxNjA6b2ByTswC8jYwg0VlNuoCTWAMqNzMzsoK1rEhNqByEyerg5PMJlYuVueETKcd/89uBpnpvIEVomeHLoMsAAe1Id4AAAAAAAB42oWQT07CQBTGv0JBhagk7HQzKxca2sJCE1hDt4QF+9JOS0nbaaYDCQfwCJ7Au3AHj+LO13FMmm6cl7785vven0kBjHCBhfpYuNa5Ph1c0e2Xu3jEvWG7UdPDLZ4N92nOm+EBXuAbHmIMSRMs+4aUEd4Nd3CHD8NdvOLTsA2GL8M9PODbcL+hD7C1xoaHeLJSEao0FEW14ckxC+TU8TxvsY6X0eLPmRhry2WVioLpkrbp84LLQPGI7c6sOiUzpWIWS5GzlSgUzzLBSikOPFTOXqly7rqx0Z1Q5BAIoZBSFihQYQOOBEdkCOgXTOHA07HAGjGWiIjaPZNW13/+lm6S9FT7rLHFJ6fQbkATOG1j2OFMucKJJsxIVfQORl+9Jyda6Sl1dUYhSCm1dyClfoeDve4qMYdLEbfqHf3O/AdDumsjAAB42mNgYoAAZQYjBmyAGYQZmdhL8zLdDEydARfoAqIAAAABAAMABwAKABMAB///AA8AAQAAAAAAAAAAAAAAAAABAAAAAA==) format('woff');
+}
+
+@media (prefers-color-scheme: dark) {
+  body,
+  [data-theme="dark"] {
+    /*dark*/
+    color-scheme: dark;
+    --color-prettylights-syntax-comment: #8b949e;
+    --color-prettylights-syntax-constant: #79c0ff;
+    --color-prettylights-syntax-entity: #d2a8ff;
+    --color-prettylights-syntax-storage-modifier-import: #c9d1d9;
+    --color-prettylights-syntax-entity-tag: #7ee787;
+    --color-prettylights-syntax-keyword: #ff7b72;
+    --color-prettylights-syntax-string: #a5d6ff;
+    --color-prettylights-syntax-variable: #ffa657;
+    --color-prettylights-syntax-brackethighlighter-unmatched: #f85149;
+    --color-prettylights-syntax-invalid-illegal-text: #f0f6fc;
+    --color-prettylights-syntax-invalid-illegal-bg: #8e1519;
+    --color-prettylights-syntax-carriage-return-text: #f0f6fc;
+    --color-prettylights-syntax-carriage-return-bg: #b62324;
+    --color-prettylights-syntax-string-regexp: #7ee787;
+    --color-prettylights-syntax-markup-list: #f2cc60;
+    --color-prettylights-syntax-markup-heading: #1f6feb;
+    --color-prettylights-syntax-markup-italic: #c9d1d9;
+    --color-prettylights-syntax-markup-bold: #c9d1d9;
+    --color-prettylights-syntax-markup-deleted-text: #ffdcd7;
+    --color-prettylights-syntax-markup-deleted-bg: #67060c;
+    --color-prettylights-syntax-markup-inserted-text: #aff5b4;
+    --color-prettylights-syntax-markup-inserted-bg: #033a16;
+    --color-prettylights-syntax-markup-changed-text: #ffdfb6;
+    --color-prettylights-syntax-markup-changed-bg: #5a1e02;
+    --color-prettylights-syntax-markup-ignored-text: #c9d1d9;
+    --color-prettylights-syntax-markup-ignored-bg: #1158c7;
+    --color-prettylights-syntax-meta-diff-range: #d2a8ff;
+    --color-prettylights-syntax-brackethighlighter-angle: #8b949e;
+    --color-prettylights-syntax-sublimelinter-gutter-mark: #484f58;
+    --color-prettylights-syntax-constant-other-reference-link: #a5d6ff;
+    --color-fg-default: #e6edf3;
+    --color-fg-muted: #848d97;
+    --color-fg-subtle: #6e7681;
+    --color-canvas-default: #0d1117;
+    --color-canvas-subtle: #161b22;
+    --color-border-default: #30363d;
+    --color-border-muted: #21262d;
+    --color-neutral-muted: rgba(110,118,129,0.4);
+    --color-accent-fg: #2f81f7;
+    --color-accent-emphasis: #1f6feb;
+    --color-success-fg: #3fb950;
+    --color-success-emphasis: #238636;
+    --color-attention-fg: #d29922;
+    --color-attention-emphasis: #9e6a03;
+    --color-attention-subtle: rgba(187,128,9,0.15);
+    --color-danger-fg: #f85149;
+    --color-danger-emphasis: #da3633;
+    --color-done-fg: #a371f7;
+    --color-done-emphasis: #8957e5;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body,
+  [data-theme="light"] {
+    /*light*/
+    color-scheme: light;
+    --color-prettylights-syntax-comment: #57606a;
+    --color-prettylights-syntax-constant: #0550ae;
+    --color-prettylights-syntax-entity: #6639ba;
+    --color-prettylights-syntax-storage-modifier-import: #24292f;
+    --color-prettylights-syntax-entity-tag: #116329;
+    --color-prettylights-syntax-keyword: #cf222e;
+    --color-prettylights-syntax-string: #0a3069;
+    --color-prettylights-syntax-variable: #953800;
+    --color-prettylights-syntax-brackethighlighter-unmatched: #82071e;
+    --color-prettylights-syntax-invalid-illegal-text: #f6f8fa;
+    --color-prettylights-syntax-invalid-illegal-bg: #82071e;
+    --color-prettylights-syntax-carriage-return-text: #f6f8fa;
+    --color-prettylights-syntax-carriage-return-bg: #cf222e;
+    --color-prettylights-syntax-string-regexp: #116329;
+    --color-prettylights-syntax-markup-list: #3b2300;
+    --color-prettylights-syntax-markup-heading: #0550ae;
+    --color-prettylights-syntax-markup-italic: #24292f;
+    --color-prettylights-syntax-markup-bold: #24292f;
+    --color-prettylights-syntax-markup-deleted-text: #82071e;
+    --color-prettylights-syntax-markup-deleted-bg: #ffebe9;
+    --color-prettylights-syntax-markup-inserted-text: #116329;
+    --color-prettylights-syntax-markup-inserted-bg: #dafbe1;
+    --color-prettylights-syntax-markup-changed-text: #953800;
+    --color-prettylights-syntax-markup-changed-bg: #ffd8b5;
+    --color-prettylights-syntax-markup-ignored-text: #eaeef2;
+    --color-prettylights-syntax-markup-ignored-bg: #0550ae;
+    --color-prettylights-syntax-meta-diff-range: #8250df;
+    --color-prettylights-syntax-brackethighlighter-angle: #57606a;
+    --color-prettylights-syntax-sublimelinter-gutter-mark: #8c959f;
+    --color-prettylights-syntax-constant-other-reference-link: #0a3069;
+    --color-fg-default: #1F2328;
+    --color-fg-muted: #656d76;
+    --color-fg-subtle: #6e7781;
+    --color-canvas-default: #ffffff;
+    --color-canvas-subtle: #f6f8fa;
+    --color-border-default: #d0d7de;
+    --color-border-muted: hsla(210,18%,87%,1);
+    --color-neutral-muted: rgba(175,184,193,0.2);
+    --color-accent-fg: #0969da;
+    --color-accent-emphasis: #0969da;
+    --color-success-fg: #1a7f37;
+    --color-success-emphasis: #1f883d;
+    --color-attention-fg: #9a6700;
+    --color-attention-emphasis: #9a6700;
+    --color-attention-subtle: #fff8c5;
+    --color-danger-fg: #d1242f;
+    --color-danger-emphasis: #cf222e;
+    --color-done-fg: #8250df;
+    --color-done-emphasis: #8250df;
+  }
+}
+
+body {
+    max-width: 980px;
+    margin: 16px auto;
+    background-color: var(--color-canvas-default);
+}
+
+.markdown-body .octicon-link:before {
+  color: var(--color-fg-default);
+  font: normal normal normal 16px/1 octicons-link;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  content: '\f05c';
+  vertical-align: middle;
+}
+
+.markdown-body {
+  padding: 45px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  color: var(--color-fg-default);
+  background-color: var(--color-canvas-default);
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.markdown-body .markdown-heading:hover .anchor {
+  opacity: 1;
+}
+
+.markdown-body .markdown-heading:hover .anchor .octicon-link::before {
+  width: 16px;
+  height: 16px;
+  content: ' ';
+  display: inline-block;
+  background-color: currentColor;
+  -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+  mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+}
+
+.markdown-body details,
+.markdown-body figcaption,
+.markdown-body figure {
+  display: block;
+}
+
+.markdown-body summary {
+  display: list-item;
+}
+
+.markdown-body [hidden] {
+  display: none !important;
+}
+
+.markdown-body a {
+  background-color: transparent;
+  color: var(--color-accent-fg);
+  text-decoration: none;
+}
+
+.markdown-body abbr[title] {
+  border-bottom: none;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.markdown-body dfn {
+  font-style: italic;
+}
+
+.markdown-body h1 {
+  margin: .67em 0;
+  font-weight: var(--base-text-weight-semibold, 600);
+  padding-bottom: .3em;
+  font-size: 2em;
+  border-bottom: 1px solid var(--color-border-muted);
+}
+
+.markdown-body mark {
+  background-color: var(--color-attention-subtle);
+  color: var(--color-fg-default);
+}
+
+.markdown-body small {
+  font-size: 90%;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body sup {
+  top: -0.5em;
+}
+
+.markdown-body img {
+  border-style: none;
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: var(--color-canvas-default);
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace;
+  font-size: 1em;
+}
+
+.markdown-body figure {
+  margin: 1em 40px;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  overflow: hidden;
+  background: transparent;
+  border-bottom: 1px solid var(--color-border-muted);
+  height: .25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: var(--color-border-default);
+  border: 0;
+}
+
+.markdown-body input {
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.markdown-body [type=button],
+.markdown-body [type=reset],
+.markdown-body [type=submit] {
+  -webkit-appearance: button;
+  appearance: button;
+}
+
+.markdown-body [type=checkbox],
+.markdown-body [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body [type=number]::-webkit-inner-spin-button,
+.markdown-body [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+.markdown-body [type=search]::-webkit-search-cancel-button,
+.markdown-body [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.markdown-body ::-webkit-input-placeholder {
+  color: inherit;
+  opacity: .54;
+}
+
+.markdown-body ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  appearance: button;
+  font: inherit;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body ::placeholder {
+  color: var(--color-fg-subtle);
+  opacity: 1;
+}
+
+.markdown-body hr::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body details summary {
+  cursor: pointer;
+}
+
+.markdown-body details:not([open])>*:not(summary) {
+  display: none !important;
+}
+
+.markdown-body a:focus,
+.markdown-body [role=button]:focus,
+.markdown-body input[type=radio]:focus,
+.markdown-body input[type=checkbox]:focus {
+  outline: 2px solid var(--color-accent-fg);
+  outline-offset: -2px;
+  box-shadow: none;
+}
+
+.markdown-body a:focus:not(:focus-visible),
+.markdown-body [role=button]:focus:not(:focus-visible),
+.markdown-body input[type=radio]:focus:not(:focus-visible),
+.markdown-body input[type=checkbox]:focus:not(:focus-visible) {
+  outline: solid 1px transparent;
+}
+
+.markdown-body a:focus-visible,
+.markdown-body [role=button]:focus-visible,
+.markdown-body input[type=radio]:focus-visible,
+.markdown-body input[type=checkbox]:focus-visible {
+  outline: 2px solid var(--color-accent-fg);
+  outline-offset: -2px;
+  box-shadow: none;
+}
+
+.markdown-body a:not([class]):focus,
+.markdown-body a:not([class]):focus-visible,
+.markdown-body input[type=radio]:focus,
+.markdown-body input[type=radio]:focus-visible,
+.markdown-body input[type=checkbox]:focus,
+.markdown-body input[type=checkbox]:focus-visible {
+  outline-offset: 0;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  line-height: 10px;
+  color: var(--color-fg-default);
+  vertical-align: middle;
+  background-color: var(--color-canvas-subtle);
+  border: solid 1px var(--color-neutral-muted);
+  border-bottom-color: var(--color-neutral-muted);
+  border-radius: 6px;
+  box-shadow: inset 0 -1px 0 var(--color-neutral-muted);
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: var(--base-text-weight-semibold, 600);
+  line-height: 1.25;
+}
+
+.markdown-body h2 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  padding-bottom: .3em;
+  font-size: 1.5em;
+  border-bottom: 1px solid var(--color-border-muted);
+}
+
+.markdown-body h3 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: 1.25em;
+}
+
+.markdown-body h4 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: 1em;
+}
+
+.markdown-body h5 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: .875em;
+}
+
+.markdown-body h6 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: .85em;
+  color: var(--color-fg-muted);
+}
+
+.markdown-body p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+  padding: 0 1em;
+  color: var(--color-fg-muted);
+  border-left: .25em solid var(--color-border-default);
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2em;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body tt,
+.markdown-body code,
+.markdown-body samp {
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 12px;
+  word-wrap: normal;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-body input::-webkit-outer-spin-button,
+.markdown-body input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.markdown-body .mr-2 {
+  margin-right: var(--base-size-8, 8px) !important;
+}
+
+.markdown-body::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .absent {
+  color: var(--color-danger-fg);
+}
+
+.markdown-body .markdown-heading {
+  position:  relative;
+}
+
+.markdown-body .anchor {
+  position: absolute;
+  top: 30%;
+  left: -28px;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  margin: auto;
+  line-height: 1;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50%);
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body details {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: var(--color-fg-default);
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 tt,
+.markdown-body h1 code,
+.markdown-body h2 tt,
+.markdown-body h2 code,
+.markdown-body h3 tt,
+.markdown-body h3 code,
+.markdown-body h4 tt,
+.markdown-body h4 code,
+.markdown-body h5 tt,
+.markdown-body h5 code,
+.markdown-body h6 tt,
+.markdown-body h6 code {
+  padding: 0 .2em;
+  font-size: inherit;
+}
+
+.markdown-body summary h1,
+.markdown-body summary h2,
+.markdown-body summary h3,
+.markdown-body summary h4,
+.markdown-body summary h5,
+.markdown-body summary h6 {
+  display: inline-block;
+}
+
+.markdown-body summary h1 .anchor,
+.markdown-body summary h2 .anchor,
+.markdown-body summary h3 .anchor,
+.markdown-body summary h4 .anchor,
+.markdown-body summary h5 .anchor,
+.markdown-body summary h6 .anchor {
+  margin-left: -40px;
+}
+
+.markdown-body summary h1,
+.markdown-body summary h2 {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.markdown-body ul.no-list,
+.markdown-body ol.no-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.markdown-body ol[type="a s"] {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body ol[type="A s"] {
+  list-style-type: upper-alpha;
+}
+
+.markdown-body ol[type="i s"] {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ol[type="I s"] {
+  list-style-type: upper-roman;
+}
+
+.markdown-body ol[type="1"] {
+  list-style-type: decimal;
+}
+
+.markdown-body div>ol:not([type]) {
+  list-style-type: decimal;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body li+li {
+  margin-top: .25em;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body table th {
+  font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid var(--color-border-default);
+}
+
+.markdown-body table td>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table tr {
+  background-color: var(--color-canvas-default);
+  border-top: 1px solid var(--color-border-muted);
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: var(--color-canvas-subtle);
+}
+
+.markdown-body table img {
+  background-color: transparent;
+}
+
+.markdown-body img[align=right] {
+  padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+  padding-right: 20px;
+}
+
+.markdown-body .emoji {
+  max-width: none;
+  vertical-align: text-top;
+  background-color: transparent;
+}
+
+.markdown-body span.frame {
+  display: block;
+  overflow: hidden;
+}
+
+.markdown-body span.frame>span {
+  display: block;
+  float: left;
+  width: auto;
+  padding: 7px;
+  margin: 13px 0 0;
+  overflow: hidden;
+  border: 1px solid var(--color-border-default);
+}
+
+.markdown-body span.frame span img {
+  display: block;
+  float: left;
+}
+
+.markdown-body span.frame span span {
+  display: block;
+  padding: 5px 0 0;
+  clear: both;
+  color: var(--color-fg-default);
+}
+
+.markdown-body span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.markdown-body span.align-center>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.markdown-body span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.markdown-body span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.markdown-body span.align-right>span {
+  display: block;
+  margin: 13px 0 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.markdown-body span.align-right span img {
+  margin: 0;
+  text-align: right;
+}
+
+.markdown-body span.float-left {
+  display: block;
+  float: left;
+  margin-right: 13px;
+  overflow: hidden;
+}
+
+.markdown-body span.float-left span {
+  margin: 13px 0 0;
+}
+
+.markdown-body span.float-right {
+  display: block;
+  float: right;
+  margin-left: 13px;
+  overflow: hidden;
+}
+
+.markdown-body span.float-right>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.markdown-body code,
+.markdown-body tt {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  white-space: break-spaces;
+  background-color: var(--color-neutral-muted);
+  border-radius: 6px;
+}
+
+.markdown-body code br,
+.markdown-body tt br {
+  display: none;
+}
+
+.markdown-body del code {
+  text-decoration: inherit;
+}
+
+.markdown-body samp {
+  font-size: 85%;
+}
+
+.markdown-body pre code {
+  font-size: 100%;
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  color: var(--color-fg-default);
+  background-color: var(--color-canvas-subtle);
+  border-radius: 6px;
+}
+
+.markdown-body pre code,
+.markdown-body pre tt {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body .csv-data td,
+.markdown-body .csv-data th {
+  padding: 5px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.markdown-body .csv-data .blob-num {
+  padding: 10px 8px 9px;
+  text-align: right;
+  background: var(--color-canvas-default);
+  border: 0;
+}
+
+.markdown-body .csv-data tr {
+  border-top: 0;
+}
+
+.markdown-body .csv-data th {
+  font-weight: var(--base-text-weight-semibold, 600);
+  background: var(--color-canvas-subtle);
+  border-top: 0;
+}
+
+.markdown-body [data-footnote-ref]::before {
+  content: "[";
+}
+
+.markdown-body [data-footnote-ref]::after {
+  content: "]";
+}
+
+.markdown-body .footnotes {
+  font-size: 12px;
+  color: var(--color-fg-muted);
+  border-top: 1px solid var(--color-border-default);
+}
+
+.markdown-body .footnotes ol {
+  padding-left: 16px;
+}
+
+.markdown-body .footnotes ol ul {
+  display: inline-block;
+  padding-left: 16px;
+  margin-top: 16px;
+}
+
+.markdown-body .footnotes li {
+  position: relative;
+}
+
+.markdown-body .footnotes li:target::before {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -24px;
+  pointer-events: none;
+  content: "";
+  border: 2px solid var(--color-accent-emphasis);
+  border-radius: 6px;
+}
+
+.markdown-body .footnotes li:target {
+  color: var(--color-fg-default);
+}
+
+.markdown-body .footnotes .data-footnote-backref g-emoji {
+  font-family: monospace;
+}
+
+.markdown-body .pl-c {
+  color: var(--color-prettylights-syntax-comment);
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: var(--color-prettylights-syntax-constant);
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: var(--color-prettylights-syntax-entity);
+}
+
+.markdown-body .pl-smi,
+.markdown-body .pl-s .pl-s1 {
+  color: var(--color-prettylights-syntax-storage-modifier-import);
+}
+
+.markdown-body .pl-ent {
+  color: var(--color-prettylights-syntax-entity-tag);
+}
+
+.markdown-body .pl-k {
+  color: var(--color-prettylights-syntax-keyword);
+}
+
+.markdown-body .pl-s,
+.markdown-body .pl-pds,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sre,
+.markdown-body .pl-sr .pl-sra {
+  color: var(--color-prettylights-syntax-string);
+}
+
+.markdown-body .pl-v,
+.markdown-body .pl-smw {
+  color: var(--color-prettylights-syntax-variable);
+}
+
+.markdown-body .pl-bu {
+  color: var(--color-prettylights-syntax-brackethighlighter-unmatched);
+}
+
+.markdown-body .pl-ii {
+  color: var(--color-prettylights-syntax-invalid-illegal-text);
+  background-color: var(--color-prettylights-syntax-invalid-illegal-bg);
+}
+
+.markdown-body .pl-c2 {
+  color: var(--color-prettylights-syntax-carriage-return-text);
+  background-color: var(--color-prettylights-syntax-carriage-return-bg);
+}
+
+.markdown-body .pl-sr .pl-cce {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-string-regexp);
+}
+
+.markdown-body .pl-ml {
+  color: var(--color-prettylights-syntax-markup-list);
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-markup-heading);
+}
+
+.markdown-body .pl-mi {
+  font-style: italic;
+  color: var(--color-prettylights-syntax-markup-italic);
+}
+
+.markdown-body .pl-mb {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-markup-bold);
+}
+
+.markdown-body .pl-md {
+  color: var(--color-prettylights-syntax-markup-deleted-text);
+  background-color: var(--color-prettylights-syntax-markup-deleted-bg);
+}
+
+.markdown-body .pl-mi1 {
+  color: var(--color-prettylights-syntax-markup-inserted-text);
+  background-color: var(--color-prettylights-syntax-markup-inserted-bg);
+}
+
+.markdown-body .pl-mc {
+  color: var(--color-prettylights-syntax-markup-changed-text);
+  background-color: var(--color-prettylights-syntax-markup-changed-bg);
+}
+
+.markdown-body .pl-mi2 {
+  color: var(--color-prettylights-syntax-markup-ignored-text);
+  background-color: var(--color-prettylights-syntax-markup-ignored-bg);
+}
+
+.markdown-body .pl-mdr {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-meta-diff-range);
+}
+
+.markdown-body .pl-ba {
+  color: var(--color-prettylights-syntax-brackethighlighter-angle);
+}
+
+.markdown-body .pl-sg {
+  color: var(--color-prettylights-syntax-sublimelinter-gutter-mark);
+}
+
+.markdown-body .pl-corl {
+  text-decoration: underline;
+  color: var(--color-prettylights-syntax-constant-other-reference-link);
+}
+
+.markdown-body g-emoji {
+  display: inline-block;
+  min-width: 1ch;
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1em;
+  font-style: normal !important;
+  font-weight: var(--base-text-weight-normal, 400);
+  line-height: 1;
+  vertical-align: -0.075em;
+}
+
+.markdown-body g-emoji img {
+  width: 1em;
+  height: 1em;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item label {
+  font-weight: var(--base-text-weight-normal, 400);
+}
+
+.markdown-body .task-list-item.enabled label {
+  cursor: pointer;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 4px;
+}
+
+.markdown-body .task-list-item .handle {
+  display: none;
+}
+
+.markdown-body .task-list-item-checkbox {
+  margin: 0 .2em .25em -1.4em;
+  vertical-align: middle;
+}
+
+.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox {
+  margin: 0 -1.6em .25em .2em;
+}
+
+.markdown-body .contains-task-list {
+  position: relative;
+}
+
+.markdown-body .contains-task-list:hover .task-list-item-convert-container,
+.markdown-body .contains-task-list:focus-within .task-list-item-convert-container {
+  display: block;
+  width: auto;
+  height: 24px;
+  overflow: visible;
+  clip: auto;
+}
+
+.markdown-body ::-webkit-calendar-picker-indicator {
+  filter: invert(50%);
+}
+
+.markdown-body .markdown-alert {
+  padding: var(--base-size-8, 8px) var(--base-size-16, 16px);
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid var(--color-border-default);
+}
+
+.markdown-body .markdown-alert>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body .markdown-alert>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body .markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: var(--base-text-weight-medium, 500);
+  align-items: center;
+  line-height: 1;
+}
+
+.markdown-body .markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-accent-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-accent-fg);
+}
+
+.markdown-body .markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-done-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-done-fg);
+}
+
+.markdown-body .markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-attention-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-attention-fg);
+}
+
+.markdown-body .markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-success-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-success-fg);
+}
+
+.markdown-body .markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-danger-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-danger-fg);
+}
+</style><title>tutorial-gh-pages</title></head><body><article class="markdown-body"><div class="markdown-heading"><h1 class="heading-element">Tutorial – Publicando um site no GitHub Pages (iniciante)</h1><a id="user-content-tutorial--publicando-um-site-no-github-pages-iniciante" class="anchor" aria-label="Permalink: Tutorial – Publicando um site no GitHub Pages (iniciante)" href="#tutorial--publicando-um-site-no-github-pages-iniciante"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h2 class="heading-element">Parte 0 – Visão geral e preparo</h2><a id="user-content-parte-0--visão-geral-e-preparo" class="anchor" aria-label="Permalink: Parte 0 – Visão geral e preparo" href="#parte-0--visão-geral-e-preparo"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Antes de começar, vamos alinhar expectativas e garantir que você está no caminho certo.</p>
+<div class="markdown-heading"><h3 class="heading-element">O que você vai conseguir ao final</h3><a id="user-content-o-que-você-vai-conseguir-ao-final" class="anchor" aria-label="Permalink: O que você vai conseguir ao final" href="#o-que-você-vai-conseguir-ao-final"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Ao terminar este tutorial, você será capaz de:</p>
+<ul>
+<li>Criar uma conta no GitHub</li>
+<li>Enviar os arquivos do seu site (HTML, CSS e JavaScript)</li>
+<li>Publicar esse site gratuitamente usando o GitHub Pages</li>
+<li>Acessar seu site por um link público na internet</li>
+<li>Atualizar o site sempre que quiser</li>
+</ul>
+<p>Tudo isso <strong>sem precisar saber Git, versionamento ou usar terminal</strong>.</p>
+<div class="markdown-heading"><h3 class="heading-element">O que é GitHub Pages (em palavras simples)</h3><a id="user-content-o-que-é-github-pages-em-palavras-simples" class="anchor" aria-label="Permalink: O que é GitHub Pages (em palavras simples)" href="#o-que-é-github-pages-em-palavras-simples"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>O GitHub Pages é um serviço gratuito do GitHub que permite transformar uma pasta com arquivos de site (HTML, CSS e JS) em um site acessível pela internet.</p>
+<p>Pense assim:</p>
+<ul>
+<li>Seu computador: você abre o <code>index.html</code> clicando duas vezes</li>
+<li>GitHub Pages: qualquer pessoa abre esse mesmo site por um link</li>
+</ul>
+<p>No início do vídeo, a autora reforça exatamente isso: você não precisa entender nada de hospedagem, Git ou servidores.</p>
+<p>Vídeo (introdução e tranquilização do iniciante):
+<a href="https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=0s" rel="nofollow">https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=0s</a></p>
+<div class="markdown-heading"><h3 class="heading-element">O que você precisa ter pronto antes de seguir</h3><a id="user-content-o-que-você-precisa-ter-pronto-antes-de-seguir" class="anchor" aria-label="Permalink: O que você precisa ter pronto antes de seguir" href="#o-que-você-precisa-ter-pronto-antes-de-seguir"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Antes de continuar, confira se você já tem:</p>
+<ul>
+<li>Uma pasta no seu computador com os arquivos do site</li>
+<li>Um arquivo chamado <code>index.html</code>
+</li>
+<li>Opcionalmente, arquivos <code>.css</code> e <code>.js</code>
+</li>
+</ul>
+<p>Exemplo simples de estrutura correta:</p>
+<ul>
+<li>index.html</li>
+<li>style.css</li>
+<li>script.js</li>
+</ul>
+<p>Atenção: o arquivo <code>index.html</code> é obrigatório. Ele é a “porta de entrada” do site.</p>
+<p>Se isso estiver ok, podemos seguir.</p>
+<div class="markdown-heading"><h2 class="heading-element">Parte 1 – Criando sua conta no GitHub</h2><a id="user-content-parte-1--criando-sua-conta-no-github" class="anchor" aria-label="Permalink: Parte 1 – Criando sua conta no GitHub" href="#parte-1--criando-sua-conta-no-github"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Agora vamos criar sua conta no GitHub. Esse será o lugar onde seu site ficará armazenado.</p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 1 – Acessar o site do GitHub</h3><a id="user-content-passo-1--acessar-o-site-do-github" class="anchor" aria-label="Permalink: Passo 1 – Acessar o site do GitHub" href="#passo-1--acessar-o-site-do-github"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Abra o navegador e acesse:</p>
+<p><a href="https://github.com">https://github.com</a></p>
+<p>Você verá a página inicial do GitHub.</p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 2 – Criar uma conta (Sign up)</h3><a id="user-content-passo-2--criar-uma-conta-sign-up" class="anchor" aria-label="Permalink: Passo 2 – Criar uma conta (Sign up)" href="#passo-2--criar-uma-conta-sign-up"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Se você ainda não tem conta:</p>
+<ul>
+<li>
+<p>Clique em <strong>Sign up</strong></p>
+</li>
+<li>
+<p>Preencha:</p>
+<ul>
+<li>E-mail</li>
+<li>Senha</li>
+<li>Nome de usuário</li>
+</ul>
+</li>
+<li>
+<p>Siga o passo a passo até concluir o cadastro</p>
+</li>
+</ul>
+<p>No vídeo, esse momento aparece logo após a introdução, quando a autora diz que quem é novo pode simplesmente clicar em “Sign up” e preencher os dados.</p>
+<p>Vídeo (criação da conta):
+<a href="https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=70s" rel="nofollow">https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=70s</a></p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 3 – Fazer login (Sign in)</h3><a id="user-content-passo-3--fazer-login-sign-in" class="anchor" aria-label="Permalink: Passo 3 – Fazer login (Sign in)" href="#passo-3--fazer-login-sign-in"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Depois de criar a conta:</p>
+<ul>
+<li>Volte para <a href="https://github.com">https://github.com</a>
+</li>
+<li>Clique em <strong>Sign in</strong>
+</li>
+<li>Entre com seu usuário e senha</li>
+</ul>
+<p>Ao entrar, você verá a página inicial da sua conta.</p>
+<div class="markdown-heading"><h3 class="heading-element">O que você está vendo agora (visão rápida)</h3><a id="user-content-o-que-você-está-vendo-agora-visão-rápida" class="anchor" aria-label="Permalink: O que você está vendo agora (visão rápida)" href="#o-que-você-está-vendo-agora-visão-rápida"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Não se preocupe em entender tudo agora. Para este tutorial, você só precisa reconhecer:</p>
+<ul>
+<li>A barra superior</li>
+<li>O botão <strong>+</strong> (para criar coisas novas)</li>
+<li>A opção <strong>New repository</strong>
+</li>
+</ul>
+<p>Na próxima parte, vamos usar exatamente isso para criar o espaço onde seu site vai ficar.</p>
+<p>Pare aqui por um momento. Quando estiver com a conta criada e logado no GitHub, siga para a Parte 2.</p>
+<div class="markdown-heading"><h2 class="heading-element">Parte 2 – Criando o repositório do site</h2><a id="user-content-parte-2--criando-o-repositório-do-site" class="anchor" aria-label="Permalink: Parte 2 – Criando o repositório do site" href="#parte-2--criando-o-repositório-do-site"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Agora vamos criar o <strong>repositório</strong>, que é o local onde os arquivos do seu site vão ficar guardados dentro do GitHub.</p>
+<div class="markdown-heading"><h3 class="heading-element">O que é um repositório (sem complicação)</h3><a id="user-content-o-que-é-um-repositório-sem-complicação" class="anchor" aria-label="Permalink: O que é um repositório (sem complicação)" href="#o-que-é-um-repositório-sem-complicação"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Um repositório é, basicamente, <strong>uma pasta na internet</strong>.</p>
+<p>Em vez de estar no seu computador, essa pasta fica no GitHub.</p>
+<p>Dentro dela, você vai colocar:</p>
+<ul>
+<li><code>index.html</code></li>
+<li>arquivos <code>.css</code>
+</li>
+<li>arquivos <code>.js</code>
+</li>
+<li>imagens (se tiver)</li>
+</ul>
+<p>No vídeo, a autora explica isso de forma simples, dizendo que o repositório é apenas o lugar onde o código fica guardado.</p>
+<p>Vídeo (explicação e início da criação do repositório):
+<a href="https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=95s" rel="nofollow">https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=95s</a></p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 1 – Iniciar a criação do repositório</h3><a id="user-content-passo-1--iniciar-a-criação-do-repositório" class="anchor" aria-label="Permalink: Passo 1 – Iniciar a criação do repositório" href="#passo-1--iniciar-a-criação-do-repositório"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Existem duas formas equivalentes de criar um repositório no GitHub:</p>
+<ul>
+<li>Clicando no botão <strong>New</strong>
+</li>
+<li>Ou clicando no botão <strong>+</strong> no canto superior direito e depois em <strong>New repository</strong>
+</li>
+</ul>
+<p>No vídeo, a autora mostra as duas opções e diz que você pode usar qualquer uma delas.</p>
+<p>Vídeo (onde clicar para criar):
+<a href="https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=114s" rel="nofollow">https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=114s</a></p>
+<p>Clique em uma dessas opções para continuar.</p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 2 – Escolher o nome do repositório</h3><a id="user-content-passo-2--escolher-o-nome-do-repositório" class="anchor" aria-label="Permalink: Passo 2 – Escolher o nome do repositório" href="#passo-2--escolher-o-nome-do-repositório"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Agora você precisa dar um nome para o repositório.</p>
+<p>Esse nome:</p>
+<ul>
+<li>Pode ser simples</li>
+<li>Não precisa ser técnico</li>
+<li>Pode representar o site (ex.: portfólio, landing page, site pessoal)</li>
+</ul>
+<p>Exemplos de nomes válidos:</p>
+<ul>
+<li><code>meu-site</code></li>
+<li><code>portfolio</code></li>
+<li><code>landing-page</code></li>
+</ul>
+<p>No vídeo, a autora usa como exemplo um nome relacionado a uma landing page.</p>
+<p>Vídeo (nomeando o repositório):
+<a href="https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=121s" rel="nofollow">https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=121s</a></p>
+<p>Dica: evite espaços e letras maiúsculas. Use letras minúsculas e hífen <code>-</code> se quiser separar palavras.</p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 3 – Escolher a visibilidade (Public ou Private)</h3><a id="user-content-passo-3--escolher-a-visibilidade-public-ou-private" class="anchor" aria-label="Permalink: Passo 3 – Escolher a visibilidade (Public ou Private)" href="#passo-3--escolher-a-visibilidade-public-ou-private"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Aqui existe um ponto muito importante.</p>
+<p>Você verá duas opções:</p>
+<ul>
+<li><strong>Public</strong></li>
+<li><strong>Private</strong></li>
+</ul>
+<p>Para usar o GitHub Pages gratuitamente, o repositório <strong>precisa ser Public</strong>.</p>
+<p>Public significa:</p>
+<ul>
+<li>Qualquer pessoa pode ver os arquivos</li>
+<li>Seu site poderá ser acessado pela internet</li>
+</ul>
+<p>No vídeo, a autora marca explicitamente a opção <strong>Public</strong> antes de criar o repositório.</p>
+<p>Vídeo (escolha da visibilidade):
+<a href="https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=132s" rel="nofollow">https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=132s</a></p>
+<p>Atenção: se você escolher Private, o site não será publicado gratuitamente.</p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 4 – Criar o repositório</h3><a id="user-content-passo-4--criar-o-repositório" class="anchor" aria-label="Permalink: Passo 4 – Criar o repositório" href="#passo-4--criar-o-repositório"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Depois de:</p>
+<ul>
+<li>escolher o nome</li>
+<li>marcar como Public</li>
+</ul>
+<p>Clique no botão <strong>Create repository</strong>.</p>
+<p>Pronto. O repositório foi criado.</p>
+<p>Você será levado para uma nova página, que por enquanto estará vazia ou com poucas informações.</p>
+<p>Na próxima parte, vamos <strong>enviar os arquivos do site</strong> para dentro desse repositório.</p>
+<p>Siga para a Parte 3 quando estiver com o repositório criado.</p>
+<div class="markdown-heading"><h2 class="heading-element">Parte 3 – Enviando os arquivos do site para o repositório</h2><a id="user-content-parte-3--enviando-os-arquivos-do-site-para-o-repositório" class="anchor" aria-label="Permalink: Parte 3 – Enviando os arquivos do site para o repositório" href="#parte-3--enviando-os-arquivos-do-site-para-o-repositório"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Agora vamos colocar, dentro do repositório, os arquivos do seu site (HTML, CSS e JavaScript).</p>
+<p>Este é um <strong>ponto muito importante</strong> do processo. Se algo der errado aqui, o site pode não abrir depois. Por isso, siga com atenção.</p>
+<div class="markdown-heading"><h3 class="heading-element">Antes de começar: confira sua pasta no computador</h3><a id="user-content-antes-de-começar-confira-sua-pasta-no-computador" class="anchor" aria-label="Permalink: Antes de começar: confira sua pasta no computador" href="#antes-de-começar-confira-sua-pasta-no-computador"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>No seu computador, você deve ter <strong>uma pasta aberta</strong> contendo os arquivos do site.</p>
+<p>Exemplo de estrutura correta:</p>
+<ul>
+<li>index.html</li>
+<li>style.css</li>
+<li>script.js</li>
+<li>imagens/</li>
+</ul>
+<p>Atenção: o arquivo <code>index.html</code> deve estar <strong>diretamente dentro da pasta</strong>, e não dentro de outra subpasta.</p>
+<div class="markdown-heading"><h3 class="heading-element">Erro comum (muito comum mesmo)</h3><a id="user-content-erro-comum-muito-comum-mesmo" class="anchor" aria-label="Permalink: Erro comum (muito comum mesmo)" href="#erro-comum-muito-comum-mesmo"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Um erro frequente é subir a <strong>pasta inteira</strong>, em vez de subir os arquivos que estão dentro dela.</p>
+<p>Errado:</p>
+<ul>
+<li>
+<p>pasta-do-site</p>
+<ul>
+<li>index.html</li>
+<li>style.css</li>
+</ul>
+</li>
+</ul>
+<p>Certo:</p>
+<ul>
+<li>index.html</li>
+<li>style.css</li>
+</ul>
+<p>No vídeo, a autora faz questão de alertar sobre isso e mostra exatamente esse cuidado.</p>
+<p>Vídeo (alerta sobre não subir a pasta errada):
+<a href="https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=142s" rel="nofollow">https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=142s</a></p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 1 – Iniciar o upload dos arquivos</h3><a id="user-content-passo-1--iniciar-o-upload-dos-arquivos" class="anchor" aria-label="Permalink: Passo 1 – Iniciar o upload dos arquivos" href="#passo-1--iniciar-o-upload-dos-arquivos"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>No repositório que você acabou de criar, procure pela opção:</p>
+<p><strong>Uploading an existing file</strong></p>
+<p>Clique nela.</p>
+<p>Essa opção permite enviar arquivos do seu computador diretamente pelo navegador, sem usar nenhum programa extra.</p>
+<p>Vídeo (onde clicar para fazer upload):
+<a href="https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=141s" rel="nofollow">https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=141s</a></p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 2 – Arrastar os arquivos corretos</h3><a id="user-content-passo-2--arrastar-os-arquivos-corretos" class="anchor" aria-label="Permalink: Passo 2 – Arrastar os arquivos corretos" href="#passo-2--arrastar-os-arquivos-corretos"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Com a tela de upload aberta:</p>
+<ul>
+<li>Abra a pasta do seu site no computador</li>
+<li>Entre na pasta (não arraste a pasta fechada)</li>
+<li>Selecione os arquivos que estão dentro dela</li>
+<li>Arraste esses arquivos para a área indicada no GitHub</li>
+</ul>
+<p>Você verá os arquivos aparecendo na tela.</p>
+<p>Aguarde até que todos sejam carregados.</p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 3 – Confirmar o envio (Commit)</h3><a id="user-content-passo-3--confirmar-o-envio-commit" class="anchor" aria-label="Permalink: Passo 3 – Confirmar o envio (Commit)" href="#passo-3--confirmar-o-envio-commit"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Depois que os arquivos aparecerem na tela, desça a página.</p>
+<p>Você verá um campo para escrever uma mensagem.</p>
+<p>Pode escrever algo simples, por exemplo:</p>
+<ul>
+<li>"Primeira versão do site"</li>
+<li>"Adicionando arquivos do site"</li>
+</ul>
+<p>Em seguida, clique no botão <strong>Commit changes</strong>.</p>
+<p>No vídeo, a autora escreve uma mensagem simples e confirma o envio exatamente assim.</p>
+<p>Vídeo (commit dos arquivos):
+<a href="https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=187s" rel="nofollow">https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=187s</a></p>
+<div class="markdown-heading"><h3 class="heading-element">O que aconteceu agora</h3><a id="user-content-o-que-aconteceu-agora" class="anchor" aria-label="Permalink: O que aconteceu agora" href="#o-que-aconteceu-agora"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Neste momento:</p>
+<ul>
+<li>Seus arquivos já estão no GitHub</li>
+<li>O repositório deixou de estar vazio</li>
+<li>O site ainda <strong>não está no ar</strong> (isso vem na próxima parte)</li>
+</ul>
+<p>Se você voltar para a página principal do repositório, já deverá ver o <code>index.html</code> listado.</p>
+<p>Se não aparecer, algo deu errado no upload — volte e revise os passos.</p>
+<p>Na próxima parte, vamos <strong>ativar o GitHub Pages</strong> e colocar o site no ar.</p>
+<p>Siga para a Parte 4 quando seus arquivos já estiverem visíveis no repositório.</p>
+<div class="markdown-heading"><h2 class="heading-element">Parte 4 – Ativando o GitHub Pages e publicando o site</h2><a id="user-content-parte-4--ativando-o-github-pages-e-publicando-o-site" class="anchor" aria-label="Permalink: Parte 4 – Ativando o GitHub Pages e publicando o site" href="#parte-4--ativando-o-github-pages-e-publicando-o-site"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Agora vamos fazer o passo que realmente coloca o site no ar: <strong>ativar o GitHub Pages</strong>.</p>
+<p>Até aqui, seus arquivos estão guardados no GitHub, mas ainda não estão acessíveis como um site.</p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 1 – Acessar as configurações do repositório</h3><a id="user-content-passo-1--acessar-as-configurações-do-repositório" class="anchor" aria-label="Permalink: Passo 1 – Acessar as configurações do repositório" href="#passo-1--acessar-as-configurações-do-repositório"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Na página do seu repositório, procure no menu superior pela opção <strong>Settings</strong>.</p>
+<p>Clique em <strong>Settings</strong>.</p>
+<p>No vídeo, a autora mostra claramente esse momento antes de falar sobre GitHub Pages.</p>
+<p>Vídeo (acessando Settings):
+<a href="https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=210s" rel="nofollow">https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=210s</a></p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 2 – Encontrar a seção Pages</h3><a id="user-content-passo-2--encontrar-a-seção-pages" class="anchor" aria-label="Permalink: Passo 2 – Encontrar a seção Pages" href="#passo-2--encontrar-a-seção-pages"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Dentro das configurações:</p>
+<ul>
+<li>Role a página para baixo</li>
+<li>Procure pela opção <strong>Pages</strong> no menu lateral</li>
+</ul>
+<p>Clique em <strong>Pages</strong>.</p>
+<p>É aqui que o GitHub permite transformar o repositório em um site.</p>
+<p>Vídeo (indo até Pages):
+<a href="https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=216s" rel="nofollow">https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=216s</a></p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 3 – Escolher a branch correta</h3><a id="user-content-passo-3--escolher-a-branch-correta" class="anchor" aria-label="Permalink: Passo 3 – Escolher a branch correta" href="#passo-3--escolher-a-branch-correta"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Você verá uma opção chamada <strong>Branch</strong>.</p>
+<p>Ela define de onde o GitHub vai pegar os arquivos do site.</p>
+<p>Para este tutorial:</p>
+<ul>
+<li>Escolha <strong>main</strong>
+</li>
+<li>Na pasta, mantenha <strong>/(root)</strong>
+</li>
+</ul>
+<p>Você não precisa entender o que é branch agora. O importante é usar:</p>
+<ul>
+<li>main</li>
+<li>root</li>
+</ul>
+<p>No vídeo, a autora explica que o projeto só tem essa branch e por isso ela deve ser usada.</p>
+<p>Vídeo (escolhendo branch e pasta):
+<a href="https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=238s" rel="nofollow">https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=238s</a></p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 4 – Salvar a configuração</h3><a id="user-content-passo-4--salvar-a-configuração" class="anchor" aria-label="Permalink: Passo 4 – Salvar a configuração" href="#passo-4--salvar-a-configuração"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Depois de selecionar:</p>
+<ul>
+<li>Branch: <strong>main</strong>
+</li>
+<li>Pasta: <strong>/(root)</strong>
+</li>
+</ul>
+<p>Clique em <strong>Save</strong>.</p>
+<p>A partir desse momento, o GitHub começa a trabalhar para publicar o site.</p>
+<div class="markdown-heading"><h3 class="heading-element">Atenção – tempo de espera</h3><a id="user-content-atenção--tempo-de-espera" class="anchor" aria-label="Permalink: Atenção – tempo de espera" href="#atenção--tempo-de-espera"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>O site <strong>não aparece instantaneamente</strong>.</p>
+<p>Normalmente:</p>
+<ul>
+<li>Pode levar de 1 a 5 minutos</li>
+<li>Em projetos maiores, pode demorar um pouco mais</li>
+</ul>
+<p>No vídeo, a autora comenta que geralmente nunca passa de alguns minutos.</p>
+<p>Vídeo (tempo de publicação):
+<a href="https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=254s" rel="nofollow">https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=254s</a></p>
+<p>Não feche a página. Aguarde um pouco.</p>
+<div class="markdown-heading"><h3 class="heading-element">O que acontece enquanto você espera</h3><a id="user-content-o-que-acontece-enquanto-você-espera" class="anchor" aria-label="Permalink: O que acontece enquanto você espera" href="#o-que-acontece-enquanto-você-espera"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Enquanto você aguarda:</p>
+<ul>
+<li>O GitHub verifica os arquivos</li>
+<li>Organiza as pastas</li>
+<li>Prepara o site para acesso público</li>
+</ul>
+<p>Isso tudo acontece automaticamente.</p>
+<p>Na próxima parte, vamos <strong>acessar a URL do site</strong>, testar no navegador e no celular.</p>
+<p>Siga para a Parte 5 após alguns minutos de espera.</p>
+<div class="markdown-heading"><h2 class="heading-element">Parte 5 – Acessando a URL do site e testando</h2><a id="user-content-parte-5--acessando-a-url-do-site-e-testando" class="anchor" aria-label="Permalink: Parte 5 – Acessando a URL do site e testando" href="#parte-5--acessando-a-url-do-site-e-testando"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Depois de alguns minutos, o GitHub Pages finaliza a publicação do site. Agora vamos acessar o site pela internet e conferir se está tudo funcionando.</p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 1 – Encontrar a URL do site</h3><a id="user-content-passo-1--encontrar-a-url-do-site" class="anchor" aria-label="Permalink: Passo 1 – Encontrar a URL do site" href="#passo-1--encontrar-a-url-do-site"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Volte para a seção <strong>Settings → Pages</strong> do seu repositório.</p>
+<p>Quando o site estiver pronto, você verá uma mensagem informando que ele foi publicado, junto com um link parecido com este:</p>
+<p><code>https://seu-usuario.github.io/nome-do-repositorio/</code></p>
+<p>Essa é a <strong>URL pública do seu site</strong>.</p>
+<p>No vídeo, a autora mostra exatamente esse momento, quando o link aparece e ela clica nele.</p>
+<p>Vídeo (URL do site aparece):
+<a href="https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=259s" rel="nofollow">https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=259s</a></p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 2 – Abrir o site no navegador</h3><a id="user-content-passo-2--abrir-o-site-no-navegador" class="anchor" aria-label="Permalink: Passo 2 – Abrir o site no navegador" href="#passo-2--abrir-o-site-no-navegador"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Clique na URL exibida.</p>
+<p>Seu site deve abrir normalmente, mostrando o conteúdo do <code>index.html</code>.</p>
+<p>Se o site abrir corretamente, parabéns: ele já está no ar.</p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 3 – Testar o site no celular</h3><a id="user-content-passo-3--testar-o-site-no-celular" class="anchor" aria-label="Permalink: Passo 3 – Testar o site no celular" href="#passo-3--testar-o-site-no-celular"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Um dos benefícios do GitHub Pages é que o site pode ser acessado de qualquer lugar.</p>
+<p>Você pode:</p>
+<ul>
+<li>Copiar a URL</li>
+<li>Enviar para você mesmo por WhatsApp ou e-mail</li>
+<li>Abrir no celular</li>
+</ul>
+<p>No vídeo, a autora comenta que testou o site no celular e conseguiu navegar normalmente.</p>
+<p>Vídeo (teste no celular):
+<a href="https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=299s" rel="nofollow">https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=299s</a></p>
+<div class="markdown-heading"><h3 class="heading-element">O que fazer se o site não abrir imediatamente</h3><a id="user-content-o-que-fazer-se-o-site-não-abrir-imediatamente" class="anchor" aria-label="Permalink: O que fazer se o site não abrir imediatamente" href="#o-que-fazer-se-o-site-não-abrir-imediatamente"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Se ao clicar no link o site não abrir:</p>
+<ul>
+<li>Aguarde mais 1 ou 2 minutos</li>
+<li>Atualize a página (F5)</li>
+<li>Volte em <strong>Settings → Pages</strong> e confira se a mensagem de publicação aparece</li>
+</ul>
+<p>Isso é normal, especialmente na primeira vez.</p>
+<div class="markdown-heading"><h3 class="heading-element">Como usar esse link na prática</h3><a id="user-content-como-usar-esse-link-na-prática" class="anchor" aria-label="Permalink: Como usar esse link na prática" href="#como-usar-esse-link-na-prática"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Agora que o site está no ar, você pode:</p>
+<ul>
+<li>Colocar o link no currículo</li>
+<li>Usar como portfólio</li>
+<li>Enviar para entrevistas de emprego</li>
+<li>Compartilhar com amigos ou clientes</li>
+</ul>
+<p>No vídeo, a autora sugere exatamente esse uso para portfólio e entrevistas.</p>
+<p>Vídeo (uso do site como portfólio):
+<a href="https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=302s" rel="nofollow">https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=302s</a></p>
+<p>Na próxima parte, vamos ver <strong>como atualizar o site depois</strong>, sem precisar refazer tudo.</p>
+<p>Siga para a Parte 6 quando quiser alterar o conteúdo do site.</p>
+<div class="markdown-heading"><h2 class="heading-element">Parte 6 – Atualizando o site após alterações</h2><a id="user-content-parte-6--atualizando-o-site-após-alterações" class="anchor" aria-label="Permalink: Parte 6 – Atualizando o site após alterações" href="#parte-6--atualizando-o-site-após-alterações"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Depois que o site está no ar, é muito comum querer corrigir textos, trocar imagens ou melhorar o visual.</p>
+<p>A boa notícia é que <strong>não é preciso configurar tudo de novo</strong>. Atualizar o site é bem simples.</p>
+<div class="markdown-heading"><h3 class="heading-element">O que significa “atualizar o site” no GitHub Pages</h3><a id="user-content-o-que-significa-atualizar-o-site-no-github-pages" class="anchor" aria-label="Permalink: O que significa “atualizar o site” no GitHub Pages" href="#o-que-significa-atualizar-o-site-no-github-pages"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Atualizar o site significa:</p>
+<ul>
+<li>Alterar arquivos no seu computador (HTML, CSS, JS)</li>
+<li>Enviar esses arquivos atualizados para o repositório</li>
+</ul>
+<p>Sempre que você envia uma nova versão dos arquivos, o GitHub Pages atualiza o site automaticamente.</p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 1 – Fazer alterações no seu computador</h3><a id="user-content-passo-1--fazer-alterações-no-seu-computador" class="anchor" aria-label="Permalink: Passo 1 – Fazer alterações no seu computador" href="#passo-1--fazer-alterações-no-seu-computador"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>No seu computador:</p>
+<ul>
+<li>Abra o arquivo que deseja alterar (por exemplo, <code>index.html</code>)</li>
+<li>Faça as mudanças normalmente</li>
+<li>Salve o arquivo</li>
+</ul>
+<p>Você pode, por exemplo:</p>
+<ul>
+<li>Corrigir um texto</li>
+<li>Trocar uma cor no CSS</li>
+<li>Alterar um botão</li>
+</ul>
+<div class="markdown-heading"><h3 class="heading-element">Passo 2 – Enviar os arquivos atualizados para o GitHub</h3><a id="user-content-passo-2--enviar-os-arquivos-atualizados-para-o-github" class="anchor" aria-label="Permalink: Passo 2 – Enviar os arquivos atualizados para o GitHub" href="#passo-2--enviar-os-arquivos-atualizados-para-o-github"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Volte ao repositório no GitHub.</p>
+<p>Você pode atualizar os arquivos de duas formas simples:</p>
+<p>Opção 1 – Upload novamente pelo navegador</p>
+<ul>
+<li>Clique em <strong>Add file</strong>
+</li>
+<li>Escolha <strong>Upload files</strong>
+</li>
+<li>Arraste os arquivos atualizados</li>
+<li>Se o arquivo tiver o mesmo nome, ele será substituído</li>
+</ul>
+<p>Opção 2 – Editar diretamente no GitHub (para mudanças pequenas)</p>
+<ul>
+<li>Clique em um arquivo (por exemplo, <code>index.html</code>)</li>
+<li>Clique no ícone de lápis (Edit)</li>
+<li>Faça a alteração</li>
+<li>Salve</li>
+</ul>
+<p>Para iniciantes, a <strong>Opção 1</strong> costuma ser a mais segura.</p>
+<div class="markdown-heading"><h3 class="heading-element">Passo 3 – Confirmar as alterações (Commit)</h3><a id="user-content-passo-3--confirmar-as-alterações-commit" class="anchor" aria-label="Permalink: Passo 3 – Confirmar as alterações (Commit)" href="#passo-3--confirmar-as-alterações-commit"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Assim como antes:</p>
+<ul>
+<li>Escreva uma mensagem simples (ex.: "Atualizando conteúdo do site")</li>
+<li>Clique em <strong>Commit changes</strong>
+</li>
+</ul>
+<p>Depois disso, o GitHub Pages começa a atualizar o site.</p>
+<div class="markdown-heading"><h3 class="heading-element">Tempo para a atualização aparecer</h3><a id="user-content-tempo-para-a-atualização-aparecer" class="anchor" aria-label="Permalink: Tempo para a atualização aparecer" href="#tempo-para-a-atualização-aparecer"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Normalmente:</p>
+<ul>
+<li>As mudanças aparecem em 1 ou 2 minutos</li>
+<li>Às vezes é quase imediato</li>
+</ul>
+<p>Se não aparecer:</p>
+<ul>
+<li>Atualize a página do site (F5)</li>
+<li>Aguarde mais um pouco</li>
+</ul>
+<p>Você <strong>não precisa</strong> voltar em Settings ou Pages.</p>
+<div class="markdown-heading"><h3 class="heading-element">Importante lembrar</h3><a id="user-content-importante-lembrar" class="anchor" aria-label="Permalink: Importante lembrar" href="#importante-lembrar"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<ul>
+<li>O link do site continua o mesmo</li>
+<li>Você pode atualizar quantas vezes quiser</li>
+<li>Não há custo nenhum</li>
+</ul>
+<p>Isso torna o GitHub Pages ótimo para portfólios e sites simples.</p>
+<p>Na próxima e última parte, vamos ver <strong>erros comuns e como resolver</strong>, para te ajudar caso algo não funcione como esperado.</p>
+<p>Siga para a Parte 7 para finalizar o tutorial.</p>
+<div class="markdown-heading"><h2 class="heading-element">Parte 7 – Erros comuns e como resolver</h2><a id="user-content-parte-7--erros-comuns-e-como-resolver" class="anchor" aria-label="Permalink: Parte 7 – Erros comuns e como resolver" href="#parte-7--erros-comuns-e-como-resolver"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Mesmo seguindo o passo a passo, é normal algo não funcionar de primeira. Nesta parte, vamos ver os problemas mais comuns e como resolvê-los sem desespero.</p>
+<div class="markdown-heading"><h3 class="heading-element">Erro 1 – O site não abre (página não encontrada)</h3><a id="user-content-erro-1--o-site-não-abre-página-não-encontrada" class="anchor" aria-label="Permalink: Erro 1 – O site não abre (página não encontrada)" href="#erro-1--o-site-não-abre-página-não-encontrada"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Sintoma:</p>
+<ul>
+<li>Ao acessar a URL, aparece erro 404 ou página não encontrada</li>
+</ul>
+<p>Possíveis causas e soluções:</p>
+<ul>
+<li>Aguarde alguns minutos: a publicação pode ainda não ter terminado</li>
+<li>Volte em <strong>Settings → Pages</strong> e confirme se o link aparece</li>
+<li>Verifique se o repositório está como <strong>Public</strong>
+</li>
+<li>Confirme se a branch está como <strong>main</strong> e a pasta como <strong>/(root)</strong>
+</li>
+</ul>
+<p>Esse atraso inicial é normal, como o vídeo comenta durante a publicação.</p>
+<div class="markdown-heading"><h3 class="heading-element">Erro 2 – Página em branco</h3><a id="user-content-erro-2--página-em-branco" class="anchor" aria-label="Permalink: Erro 2 – Página em branco" href="#erro-2--página-em-branco"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Sintoma:</p>
+<ul>
+<li>O site abre, mas aparece tudo em branco</li>
+</ul>
+<p>Causa mais comum:</p>
+<ul>
+<li>Não existe um arquivo <code>index.html</code> no local correto</li>
+</ul>
+<p>Como resolver:</p>
+<ul>
+<li>Confirme que o arquivo se chama exatamente <code>index.html</code>
+</li>
+<li>Verifique se ele está na raiz do repositório (e não dentro de outra pasta)</li>
+</ul>
+<p>No vídeo, a autora reforça que o <code>index.html</code> é obrigatório para o site funcionar.</p>
+<p>Vídeo (importância do index.html):
+<a href="https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=150s" rel="nofollow">https://www.youtube.com/watch?v=q3vsAtijvgA&amp;t=150s</a></p>
+<div class="markdown-heading"><h3 class="heading-element">Erro 3 – CSS ou JavaScript não funcionam</h3><a id="user-content-erro-3--css-ou-javascript-não-funcionam" class="anchor" aria-label="Permalink: Erro 3 – CSS ou JavaScript não funcionam" href="#erro-3--css-ou-javascript-não-funcionam"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Sintoma:</p>
+<ul>
+<li>O HTML aparece, mas sem estilo</li>
+<li>Botões não funcionam</li>
+</ul>
+<p>Causa mais comum:</p>
+<ul>
+<li>Caminho dos arquivos está errado</li>
+</ul>
+<p>Exemplo de erro comum:</p>
+<ul>
+<li>No HTML: <code>href="/style.css"</code>
+</li>
+<li>No GitHub Pages, isso pode não funcionar</li>
+</ul>
+<p>Forma mais segura:</p>
+<ul>
+<li>Use caminhos relativos: <code>href="style.css"</code>
+</li>
+<li>Confira se o nome do arquivo está exatamente igual (maiúsculas contam)</li>
+</ul>
+<div class="markdown-heading"><h3 class="heading-element">Erro 4 – Atualizei o site, mas não mudou</h3><a id="user-content-erro-4--atualizei-o-site-mas-não-mudou" class="anchor" aria-label="Permalink: Erro 4 – Atualizei o site, mas não mudou" href="#erro-4--atualizei-o-site-mas-não-mudou"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Sintoma:</p>
+<ul>
+<li>Você fez alterações, mas o site continua igual</li>
+</ul>
+<p>Soluções:</p>
+<ul>
+<li>Aguarde 1 ou 2 minutos</li>
+<li>Atualize a página do navegador (F5)</li>
+<li>Limpe o cache do navegador ou teste em aba anônima</li>
+</ul>
+<p>Isso é comum por causa do cache.</p>
+<div class="markdown-heading"><h3 class="heading-element">Erro 5 – Subi a pasta errada</h3><a id="user-content-erro-5--subi-a-pasta-errada" class="anchor" aria-label="Permalink: Erro 5 – Subi a pasta errada" href="#erro-5--subi-a-pasta-errada"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Sintoma:</p>
+<ul>
+<li>O site não carrega corretamente</li>
+</ul>
+<p>Causa:</p>
+<ul>
+<li>Os arquivos ficaram dentro de uma subpasta</li>
+</ul>
+<p>Solução:</p>
+<ul>
+<li>Entre no repositório</li>
+<li>Apague a pasta errada</li>
+<li>Suba novamente apenas os arquivos (index.html, css, js)</li>
+</ul>
+<p>Esse é um dos erros mais comuns para quem está começando.</p>
+<div class="markdown-heading"><h3 class="heading-element">Quando tudo falhar</h3><a id="user-content-quando-tudo-falhar" class="anchor" aria-label="Permalink: Quando tudo falhar" href="#quando-tudo-falhar"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Se nada funcionar:</p>
+<ul>
+<li>Revise cada parte do tutorial com calma</li>
+<li>Confira especialmente a Parte 3 (upload dos arquivos)</li>
+<li>Verifique novamente Settings → Pages</li>
+</ul>
+<p>Quase sempre o problema está em:</p>
+<ul>
+<li>nome do arquivo</li>
+<li>pasta errada</li>
+<li>caminho de CSS ou JS</li>
+</ul>
+<div class="markdown-heading"><h3 class="heading-element">Conclusão</h3><a id="user-content-conclusão" class="anchor" aria-label="Permalink: Conclusão" href="#conclusão"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Se você chegou até aqui, você já sabe:</p>
+<ul>
+<li>Criar conta no GitHub</li>
+<li>Criar um repositório público</li>
+<li>Subir arquivos HTML, CSS e JS</li>
+<li>Publicar um site no GitHub Pages</li>
+<li>Atualizar o site</li>
+<li>Resolver os erros mais comuns</li>
+</ul>
+<p>Você agora tem um site no ar, gratuito e acessível de qualquer lugar.</p>
+<p>A partir daqui, o próximo passo natural é melhorar o conteúdo, o visual e usar esse site como portfólio.</p>
+<p>Parabéns por chegar até o final.</p>
+</article></body></html>
